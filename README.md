@@ -19,11 +19,11 @@ The notebook is organized into **10 tasks** (Task 1 → Task 10). Each task is s
 The notebook loads two remote datasets (via raw Gist URLs):
 
 1. **Left-handedness by age** (`lh_data.csv`)  
-   URL: `https://gist.githubusercontent.com/mbonsma/.../lh_data.csv`  
+   URL: `[https://gist.githubusercontent.com/mbonsma/.../lh_data.csv](https://gist.githubusercontent.com/mbonsma/8da0990b71ba9a09f7de395574e54df1/raw/aec88b30af87fad8d45da7e774223f91dad09e88/lh_data.csv)`  
    Contains columns for age and left-handedness rates by sex.
 
 2. **US death distribution (1999)** (`cdc_vs00199_table310.tsv`)  
-   URL: `https://gist.githubusercontent.com/mbonsma/.../cdc_vs00199_table310.tsv`  
+   URL: `(https://gist.githubusercontent.com/mbonsma/2f4076aab6820ca1807f4e29f75f18ec/raw/62f3ec07514c7e31f5979beeca86f19991540796/cdc_vs00199_table310.tsv)`  
    Tab-separated file with age-specific counts of deaths ("Both Sexes").
 
 > Note: the notebook pulls these files directly from the web; no local data files are required.
@@ -83,11 +83,9 @@ The notebook loads two remote datasets (via raw Gist URLs):
 
 ## How to run
 
-### Option A — Google Colab (recommended)
+ Option A — Google Colab (recommended)
 1. Open Colab: https://colab.research.google.com  
 2. Click **File → Open notebook → GitHub** and paste the repository URL OR click **File → Upload notebook** and upload `Handedness_AgeAtDeath_Intern_project.ipynb`.  
 3. Run cells sequentially (Runtime → Run all). Colab already includes required packages.
 
-### Option B — Locally (Jupyter / JupyterLab)
-1. Clone the repo:
-   ```bash
+
